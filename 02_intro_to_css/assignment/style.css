@@ -1,0 +1,22 @@
+body {
+background-color:#000000;
+font-family: Helvetica;
+color:#F1F1F2;
+}
+
+h1{font-size: 25px;
+font-style: italic;}
+
+#jon {
+	display: block;
+	margin: auto;
+	width: 50%;
+	
+}
+
+a: link {
+
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
