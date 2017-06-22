@@ -1,0 +1,108 @@
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+
+
+/* JUST LIONK NORMALIZE OR OTHER CSS FILE RESET AS A LINK TO THE PAGE YOU ARE MAKING
+FOR YOUR HOMEWORK ASSIGNMENT */
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+}
+
+.two-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.three-columns {
+  background: lightgray;
+}
+
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  width: 50%;
+  float: left;
+}
+
+.blue {
+  background: navy;
+  width: 50%;
+  float: left;
+}
+
+.orange {
+  background: orange;
+  width: 33%;
+  float: right;
+}
+
+.three-columns {
+background: lightgray;  
+}
+
+
+.three-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.yellow {
+  background: gold;
+  width: 33%;
+  float: right;
+}
+
+.green {
+  background: forestgreen;
+  width: 33%;
+  float: right;
+}
+
+.purple{
+background: purple;
+width: 25%;
+float: left;
+}
+
+
+.pink{
+  background: pink;
+  width: 25%;
+  float: left;
+}
+
+
+.navy{
+background:#1B365D;
+width: 25%;
+float: left;
+}
+
+
+.aqua {
+  background: #7EDDD3;
+  width: 25%;
+  float: left;
+
+}
+
+
+
+
