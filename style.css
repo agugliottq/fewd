@@ -6,7 +6,6 @@ body {
 button {
   font-family: Impact;
   text-transform: uppercase;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +27,7 @@ header:after {
 }
 
 header h2 a {
-  color: #FF9E1B;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -39,22 +38,6 @@ header nav {
 header nav a {
   color: white;
   text-decoration: none;
-}
-
-
-
-.second-bar{
-    background-color: #B1B3B3;
-    font-family: Helvetica;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
- 
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
-    font-weight: bold;
 }
 
 .primary-navigation {
@@ -81,7 +64,6 @@ header nav a {
   padding-top: 1rem;
   padding-bottom: 1rem;
 
-
   font-family: Georgia;
   font-style: italic;
   font-weight: bold;
@@ -90,7 +72,6 @@ header nav a {
   text-align: center;
 }
 
-
 .strikethrough {
   color: gray;
   text-decoration: line-through;
@@ -98,11 +79,10 @@ header nav a {
 
 .underline {
   text-decoration: underline;
-  text-decoration-color:yellow; 
 }
 
 .hero {
-  background-image: url('./images/coworking.jpg');
+  background-image: url('../images/coworking.jpg');
 
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -121,7 +101,7 @@ header nav a {
 
 .sign-up-call-to-action button {
   width: 100%;
-  background-color: #FF9E1B;
+  background-color: gold;
 }
 
 .hero:after {
@@ -130,11 +110,9 @@ header nav a {
   clear: both;
 }
 
-
 .sign-up-call-to-action h1 {
   font-family: Arial;
 }
-
 
 .info-boxes:after {
   content: "";
@@ -152,34 +130,25 @@ header nav a {
   box-sizing: border-box;
 }
 
-
-button {
-  background-color: #FF9E1B; 
-}
-
 footer {
   color: white;
   background-color: black;
-
 }
 
-
-
-/*media query */
- 
- @media screen  (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .primary-navigation, .secondary-navigation {
     display: block;
   }
 
-header nav  { float: none;
- }
+  header nav {
+    float: none;
+  }
 
+  .sign-up-call-to-action {
+    width: 100%;
+  }
 
- 
-
-
-
-
-
-
+  .info-box {
+    width: 100%;
+  }
+}
