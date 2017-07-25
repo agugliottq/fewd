@@ -17,10 +17,22 @@ else if(operation == "Multiply") {
 		 
 		 console.log( firstNumber * secondNumber ); }
 
-else if(operation == "multiply") {
-	
-	console.log( firstNumber * secondNumber ); }
 
+else if(operation == "divide" && secondNumber == 0) {
+  
+  if(secondNumber == 0) {
+    
+    console.log("Divide"); }
+
+ else {
+    console.log( firstNumber / secondNumber ); }
+
+else if(operation == "Exponent") {
+	
+
+	console.log( Math.pow(firstNumber, secondNumber) ); }
+
+	
 
 
 
