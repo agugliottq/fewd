@@ -6,3 +6,4 @@ if (number > 21) {
 } else {
 	console.log ( "You're not old enough");
 }
+v

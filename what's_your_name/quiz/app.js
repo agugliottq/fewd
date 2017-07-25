@@ -35,6 +35,7 @@ var gasPrice = parseInt( prompt ( "What's the gas price here?") );
 if ( gasLevel < 10 && /*take two condictions and combine into single booleon value */ gasPrice < 4)
 
 { console.log ("Stop here for gas")}
+
 else 
 
 {console.log ("Keep driving!")} 
