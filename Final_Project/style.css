@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.navigation.navigation-enabled {
+  background-color: #777;
+}
+
+.navigation-icon {
+  width: 40px;
+}
+
+.navigation-items {
+  display: none;
+}
+
+.navigation-enabled .navigation-items {
+  display: block;
+
+}
+
+
+header {
+  background: black;
+  box-shadow: 0 0 5px #fff;
+  color: #2AD2C9;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 12px;
+}
+
+
+body {
+	background-color: black;
+	color:white;
+	font-family: Arial
+  	margin: 0;
+  	padding: 0;
+  	text-align: center;
+}
+
+.numbers h2 {
+	font-family: "Advent Pro";
+	src: url("../fonts/Advent Pro Bold.ttf");
+	font-size: 340px;
+	color: red;
+}
+
+.intro {
+	font-family: "Misproject";
+	src: url("../fonts/Misproject Regular.ttf"); 
+	font-size: 150px;
+}
+
+.intropage {
+	background-image: url("images/bwlandmines.jpg") ;
+}
+
+img LandminePhoto {
+	width: 100%;
+	display: block;
+	margin: auto;
+	float: none;
+}
+
+h3 {
+	font-family: "Misproject";
+	src: url("../fonts/Misproject Regular.ttf"); 
+	 font-size: 6rem;
+	color: red;
+
+}
+
+
+h5 {
+	color: red;
+	font-family: "Advent Pro";
+	src: url("../fonts/Advent Pro Bold.ttf");
+	font-size: 3rem;
+
+}
+
+.content {
+	font-family: "Cormorant";
+	src: url("../fonts/Cormorant.ttf"); 
+	font-size: 20px;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

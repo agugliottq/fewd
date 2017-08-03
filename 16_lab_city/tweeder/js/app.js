@@ -28,20 +28,19 @@ var createTweed = function(text) {
 }
 
 
-$(".new-tweed-text").keypress(function(event) {
+$(".new-tweed-text").on("input", function(){
   var userInput = $(".new-tweed-text").val();
 
-  if (userInput.length > 5) {
-    event.preventDefault();
-  }
+    if (userInput.length > 6) {
+      var trimmedInput = userInput.substring(0, 6)
 
+  $(".new-tweed-text").val(trimmedInput);
 
+ }
 
-$(".navigation-icon").function();
+ 
+$(".navigation-icon").click(function() {
+  var navigation = $(".navigation");
 
-navgationItems.addClass("navigation-enabled");
-
-
-
-
+  navigation.toggleClass("navigation-enabled");
 });

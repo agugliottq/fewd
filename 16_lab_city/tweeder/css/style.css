@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -8,20 +8,23 @@ body {
   background: url("../images/dark-triangles.png");
   background-repeat: repeat;
   color: white;
+  font-family: Arial;
 }
 
 header {
   background: orange;
   box-shadow: 0 0 5px #fff;
-  color: #333;
-}
+  color: white;
 
-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 12px; /* t b l f */
-  border-bottom: 2px solid darkorange;
+
+  padding: 0 12px;
+}
+
+.navigation.navigation-enabled {
+  background-color: #777;
 }
 
 .navigation-icon {
@@ -32,15 +35,17 @@ header {
   display: none;
 }
 
-
+.navigation-enabled .navigation-items {
+  display: block;
+}
 
 main {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+
   display: flex;
- justify-content: space-between;
- 
+  justify-content: space-between;
 }
 
 .profile {
@@ -49,68 +54,62 @@ main {
 
 .profile-picture img {
   border-radius: 50%;
-  border: 5px solid orange;
+  border: 5px solid white;
+
   width: 100%;
 }
 
-.new-tweed-text {
-width: 100%; 
-font-size: 20px;
-
-}
-
-
-.new-tweed-button {
+.new-tweed-text, .new-tweed-button {
   width: 100%;
-  font-size: 20px;
-  background: orange;
-  border: none;
-  border-bottom: 3px solid darkorange;
-  padding: 12px;
-  color: white;
-
+  font-size: 24px;
 }
-
-
-.activity { 
-width: 60% 
-
-}
-
-.img-circle {
-    border-radius: 50%;
-}
-
-
 
 .new-tweed-text {
   resize: none;
   height: 80px;
- 
 }
 
+.new-tweed-button {
+  background: orange;
+  border: none;
+  border-bottom: 3px solid darkorange;
 
+  padding: 12px;
+  color: white;
+}
+
+.activity {
+  width: 60%;
+}
 
 .tweeds {
-  background-color: #FFBF3F;
   color: black;
-  font-size: 30px;
-  font-family: Impact;
+  background: white;
+
   padding: 0;
   margin: 0;
 }
 
-
-.tweed { 
-  font-size: 36PX;
+/*.tweed {
   padding: 36px;
-  border-top: 1px solid white;
+  border-bottom: 1px solid gray;
+}
+
+.tweed:last-child {
+  border: none;
+}
+Same as below
+*/
+
+.tweed {
+  font-size: 36px;
+  padding: 36px;
+  border-top: 1px solid gray;
+
   position: relative;
+}
 
-
- }
-
-.tweed: first-child {
+.tweed:first-child {
   border: none;
 }
 
@@ -118,11 +117,4 @@ width: 60%
   position: absolute;
   top: 12px;
   right: 12px;
-
 }
-
-
-
-
-
-
