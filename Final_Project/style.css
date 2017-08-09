@@ -2,9 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+	width:100%;
+}
 
-.navigation.navigation-enabled {
-  background-color: #777;
+nav {
+  width: 200px;
+  background-color: black;
 }
 
 .navigation-icon {
@@ -20,19 +24,50 @@
 
 }
 
+ul {
+  list-style: none;
+  background: black;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #aaa;
+  font-family: "Colaborate-Thin";
+  src: url("../fonts/Colaborate-Thin.ttf");
+  font-size: 20px;
+}
+
+ol li.today {
+
+  font-family: "Colaborate-Thin";
+  src: url("../fonts/Colaborate-Thin.ttf");
+  font-size: 20px;
+  border: none;
+  margin: 10px;
+  padding: 0;
+  text-align: left; 
+}
+
+.hidden {
+  display: none;
+}
 
 header {
   background: black;
-  box-shadow: 0 0 5px #fff;
-  color: #2AD2C9;
+  font-family: "Misproject";
+  src: url("../fonts/Misproject Regular.ttf"); 
+  font-size: 16px;
+  color: gold;
+  margin: 0px;
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 0 12px;
 }
-
 
 body {
 	background-color: black;
@@ -43,46 +78,189 @@ body {
   	text-align: center;
 }
 
-.numbers h2 {
-	font-family: "Advent Pro";
-	src: url("../fonts/Advent Pro Bold.ttf");
+
+.first {
+	font-family: "Oswald Stencil";
+	src: url("../fonts/Oswald Stencil.ttf");
 	font-size: 340px;
 	color: red;
+	margin: 0px;
+	text-align: center;
 }
 
-.intro {
+.second {
 	font-family: "Misproject";
 	src: url("../fonts/Misproject Regular.ttf"); 
-	font-size: 150px;
+	font-size: 140px;
+	 margin: 0px;
+	 margin-bottom: 100px;
+	text-align: center;
+
 }
 
-.intropage {
-	background-image: url("images/bwlandmines.jpg") ;
-}
-
-img LandminePhoto {
-	width: 100%;
-	display: block;
-	margin: auto;
-	float: none;
+h2 { 
+	
+	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 20px; 
+	color: red;
 }
 
 h3 {
 	font-family: "Misproject";
 	src: url("../fonts/Misproject Regular.ttf"); 
-	 font-size: 6rem;
+	font-size: 6rem;
+	color: red;
+	margin: 120px 0px 0px 20px;
+	letter-spacing: 1.5px;
+
+}
+
+h8 {
+	font-family: "Misproject";
+	src: url("../fonts/Misproject Regular.ttf"); 
+	font-size: 6rem;
+	color: red;
+	margin: 120px 0px 0px 20px;
+	letter-spacing: 1px;
 	color: red;
 
 }
 
+ h11 {
+	font-family: "Misproject";
+	src: url("../fonts/Misproject Regular.ttf"); 
+	font-size: 50px;
+	color: black;
+ }
 
-h5 {
+ h12 {
+ 	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 26px; 
+	color: black;
+ }
+
+h14 {
+	font-family: "Misproject";
+	src: url("../fonts/Misproject Regular.ttf"); 
+	font-size: 6rem;
 	color: red;
+	margin: 120px 0px 0px 20px;
+	letter-spacing: 1px;
+	color: white;
+ }
+
+ h15 {
+	font-family: "Misproject";
+	src: url("../fonts/Misproject Regular.ttf"); 
+	font-size: 50px;
+	color: red;
+	margin-top: 30px;
+ }
+
+h16 {
+	font-family: "Misproject";
+	src: url("../fonts/Misproject Regular.ttf"); 
+	font-size: 6rem;
+	color: white;
+	margin: 120px 0px 0px 20px;
+	letter-spacing: 1.5px;
+
+}
+
+
+.def {
+	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 30px; 
+	color: darkgrey;
+	font-style: italic;
+}
+
+.deffmore {
+	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 30px; 
+	color: darkgrey;
+	font-weight: bold;
+}
+
+.third {
+	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 28px;
+	text-align: center;
+	padding: 50px 110px;
+	text-align: justify;
+	
+	letter-spacing: .8px  
+}
+
+.fourth {
+
+	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 28px;
+	text-align: center;
+	padding: 50px 110px;
+	text-align: justify;
+	letter-spacing: .8px  
+}
+
+.fifth {
+
+	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 28px;
+	text-align: center;
+	padding: 50px 110px;
+	text-align: justify;
+	letter-spacing: .8px  
+}
+
+.sixth {
+
+	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 28px;
+	text-align: center;
+	padding: 50px 110px;
+	text-align: justify;
+	letter-spacing: .8px  
+}
+
+.intropage {
+	background-image: url("images/bwlandmines.jpg") ;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+img LandminePhoto {
+	width: 100%;
+	display: block;
+	margin: 0px;
+	float: none;
+}
+
+
+.callout {
+
 	font-family: "Advent Pro";
 	src: url("../fonts/Advent Pro Bold.ttf");
-	font-size: 3rem;
+	font-size: 50px;
+	color: red;
+	margin: 0px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 100px;
 
 }
+
 
 .content {
 	font-family: "Cormorant";
@@ -94,21 +272,112 @@ h5 {
 
 
 
+.imagebreak { 
+   position: relative; 
+
+}
+
+h6 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%;
+   text-align: left;
+   padding: 12px;
+}
+
+h6 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+section.module.parallax {
+	height: 600px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
 
 
 
 
+section.module.parallax-1 {
+ background-image: url("images/danger.jpg") ;
+}
 
 
+section.module.parallax-2 {
+ background-image: url("images/child-landmine.jpg") ;
+}
 
 
+section.module.parallax-3 {
+  background-image: url("images/ratsniff.jpg") ;
+}
+
+section.module.parallax-4 {
+  background-image: url("images/colombia.jpg") ;
+}
 
 
+.seventh, .nine , .ten , .eleven  {
+	font-family: "Colaborate-Thin";
+	src: url("../fonts/Colaborate-Thin.ttf");
+	font-size: 28px;
+	text-align: center;
+	padding: 50px 110px;
+	text-align: justify;
+	letter-spacing: .8px  
+
+}
 
 
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+footer h15 {
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.footer-links {
+  margin-bottom: 48px;
+  text-align: center;}
+
+}
 
 
+.footer-links a {
+  margin-left: 12px;
+  margin-right: 12px;
+}
 
+.footer img {
+	size: 50%;
+}
+
+/* make font and website work when it becomes smaller 
+paralax first - work on the known last /* 
 
 
 
